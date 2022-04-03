@@ -1,6 +1,6 @@
 # Requirements 
 ## Introduction
-   * The aim of the project is about ONLINE MOVIE TICKET BOOKING MANAGEMENT SYSTEM to a customer to book the ticket from anytime and anywhere. The project has been developed to carry out process easily and quickly.The system enable the user to Book ticket , cancle ticket & view all booking records.  
+   * The aim of the project is ONLINE MOVIE TICKET BOOKING MANAGEMENT SYSTEM which allows customer to book the ticket from anytime and anywhere. The project has been developed to carry out process easily and quickly.The system enable the user to Book ticket, cancle ticket & view all booking records.  
    
 ## Research
   * Cinemas help in contributing to our daily memories as they provide an essential part of our culture,going to cinemas has been the culture of almost all the families of today’s generation. It is a time when the family can spend some time altogether by stealing some hours from their busy schedule. Movie Ticket Booking System provides the customers facility to book tickets for a movie and to gather information about the movies and theaters.Customers can book ticket of his choice and may cancel a ticket
@@ -12,8 +12,8 @@
  * Provide a 24*7 service to the customer.
  
  ## Features
-  Booking tickets
-  Cancel tickets
+  Booking of tickets
+  Cancelation of tickets
   Change ticket price(only admin)
   View all booking records
   
@@ -67,8 +67,8 @@
 |------|-------------------------------------------------------------------------------------------------|-----------|-------------|
 | LL_1 | User shall be able to login to the system with correct login details                            | HL_1      | Implemented |
 | LL_2 | User need to book a ticket in a user entry mode                                                 | HL_1      | Implemented |
-| LL_3 | If appropriate login detail are not entered a message is display "Wrong password"               | HL_1      | Implemented |
-| LL_4 | Display the movie available                                                                     | HL_2      | Implemented |
+| LL_3 | If appropriate login details are not entered a message will display saying "Wrong password"     | HL_1      | Implemented |
+| LL_4 | Display the available movie                                                                      | HL_2      | Implemented |
 | LL_5 | Admin can change the price of the movie                                                         | HL_2      | Implemented |
-| LL_6 | If user select seat number which is already booked ,message appere that the seat is unavailable | HL_5      | Implemented |
+| LL_6 | If user select seat number which is already booked, a will message will appear that the seat is unavailable | HL_5      | Implemented |
 | LL_7 | Displaying the summary of the ticket booked                                                     | HL_3      | Implemented |
