@@ -6,9 +6,9 @@ int ListofMovies(void)
 	system("cls");
 	printf("\t\t\tMovie Name?\n");
 	printf("\t\t\t----------------------------\n\n");
-	printf("\t\t\tpress 1 for Harry Potter\n\n");
-	printf("\t\t\tpress 2 for The Invisible Man\n\n");
-	printf("\t\t\tpress 3 for Tenet\n");
+	printf("\t\t\tpress 1 for War\n\n");
+	printf("\t\t\tpress 2 for RRR\n\n");
+	printf("\t\t\tpress 3 for Bahubali\n");
 	scanf("%d",&i);
 	return i;
 }
