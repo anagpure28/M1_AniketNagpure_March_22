@@ -2,7 +2,7 @@
 
 struct movie_details{
 	char name[25];
-	char phoneno[15];
-	int seatnum;
+	char PhoneNo[15];
+	int Seatnumber;
 	int id;
 };
