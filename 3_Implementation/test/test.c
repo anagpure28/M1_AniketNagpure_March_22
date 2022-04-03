@@ -9,7 +9,7 @@ void tearDown()
 {
   
 }
-void test_changepriceticket(void)
+void test_changedprice(void)
 {
     int price1=700;
     TEST_ASSERT_EQUAL(700,changedprice(price1));
