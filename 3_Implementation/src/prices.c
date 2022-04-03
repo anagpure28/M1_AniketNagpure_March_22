@@ -1,5 +1,5 @@
 #include "function.h"
-int changepriceticket(int price)
+int changedprice(int price)
 {
 	char pass[10],pac[10]="admin";
 	printf("Enter your password to change the pricing of ticket: ");
