@@ -1,10 +1,10 @@
 #include "function.h"
 int changepriceticket(int price)
 {
-	char pass[10],pak[10]="admin";
-	printf("Enter the password to change price of ticket: ");
+	char pass[10],pac[10]="admin";
+	printf("Enter your password to change the pricing of ticket: ");
 	scanf("%s",&pass);
-	if (strcmp(pass,pak)==0)
+	if (strcmp(pass,pac)==0)
 	{
 		printf("Please enter new price: ");
 		scanf("%d",&price);
