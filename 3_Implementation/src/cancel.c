@@ -6,7 +6,7 @@ struct movie_details person[300];
 void cancelticket(int *array)
 {
       int Cseat,i,stop;
-	  printf("Please enter ID number of ticket: ");
+	  printf("Please enter given ID number of ticket: ");
 	  scanf("%d",&Cseat);
 	  for (i=0;i<300;i++)
 	  {
@@ -14,11 +14,11 @@ void cancelticket(int *array)
 	  		{
 					 stop=5;
 					 system("cls");
-					 printf("%s your ticket is %d cancelled",person[i].name,person[i].seatnum);
+					 printf("%s your ticket for the movie is %d cancelled",person[i].name,person[i].seatnum);
 					 array[person[i].seatnum]=0;
 					 i=300;
 	  		}
 	  }
 	  if (stop!=5)
-	  		printf("Ticket ID number is incorrect please enter right one to cancel ticket: \n");
+	  		printf("Ticket ID number is incorrect please enter the right ticket number to the reserve ticket: \n");
 }
