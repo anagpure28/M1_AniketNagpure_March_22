@@ -2,7 +2,7 @@
 int enterchoice(void)
 {
 	int choice;
-	printf("                 Welcome To Movie Ticket Booking System\n");
+	printf("                 Welcome To Movie Ticket Booking Management System\n");
 	printf(" ************#######************\n");
 	printf("             1- Admin           \n");
 	printf("             2- User          \n");
