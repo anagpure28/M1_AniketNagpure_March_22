@@ -7,10 +7,10 @@ void details(void)
 {
 	int i;
 	int count =0;
-	char pass[10],pak[10]="admin";
+	char pass[10],pac[10]="admin";
 	printf("Enter the registered password to see your details: ");
 	scanf("%s",&pass);
-	if (strcmp(pass,pak)==0)
+	if (strcmp(pass,pac)==0)
 	{
 		for (i=0;i<count;i++)
 		{
