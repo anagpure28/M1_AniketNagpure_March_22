@@ -2,7 +2,7 @@
 #include "moviedetails.c"
 #include<string.h>
 
-struct movie_details person[300];
+struct movie_details person[500];
 void show2(int choice,char name[10],int id1,int price)
 {
         int count =0;
