@@ -57,7 +57,7 @@ int movieselect(void);
  * @brief admin can change prize of ticket after login with the appropriate login credentials .
  * 
  */
-int changepriceticket(int);
+int changedprice(int);
 
 /**
  * @brief Customer can purchase a ticket 
